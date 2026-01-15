@@ -1,0 +1,77 @@
+:root {
+  /* Colors - Background */
+  --color-bg-primary: #4a5d6e;
+  --color-bg-secondary: #3d4f5f;
+  --color-bg-card: #ffffff;
+
+  /* Colors - Map */
+  --color-map-beige: #E8DCC4;
+  --color-map-olive: #B8B08D;
+  --color-map-coral: #D4A574;
+  --color-map-tan: #CCA885;
+  --color-map-brown: #B89968;
+  --color-map-cream: #E5CBA8;
+
+  /* Colors - Text */
+  --color-text-primary: #2c3e50;
+  --color-text-secondary: #7f8c8d;
+  --color-text-light: #ffffff;
+
+  /* Colors - Accent */
+  --color-accent-blue: #3498db;
+  --color-accent-red: #e74c3c;
+  --color-accent-green: #2ecc71;
+  --color-accent-yellow: #f39c12;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-xl: 0 12px 24px rgba(0, 0, 0, 0.25);
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 3rem;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+
+  /* Layout */
+  --header-height: 80px;
+  --max-width: 1200px;
+  --container-padding: var(--spacing-md);
+
+  /* Z-index */
+  --z-header: 100;
+  --z-modal: 1000;
+  --z-tooltip: 2000;
+}
